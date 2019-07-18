@@ -1,0 +1,7 @@
+CREATE SCHEMA `muj` ;
+CREATE TABLE `muj`.`users` (
+  `select_class` VARCHAR(45) NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `mobile` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`mobile`));
